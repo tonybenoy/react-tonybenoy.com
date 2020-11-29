@@ -21,6 +21,19 @@ border-radius: 50%;
   color: green;
 }
 
+fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: green;
+}
+
+fa:hover {
+    opacity: 0.7;
+}
+
 
 .blink_text {
 

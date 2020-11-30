@@ -1,3 +1,10 @@
+### Docker cmd
+
+`docker build -t tony-react-web .`
+
+`docker run -it --rm -v ${PWD}:/app -v /app/node_modules -p 3000:3000 tony-react-web`
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,8 +76,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### Docker cmd
-
-`docker build -t tony-react-web .`
-
-`docker run -it --rm -v ${PWD}:/app -v /app/node_modules -p 3000:3000 tony-react-web`
